@@ -1,10 +1,14 @@
 
-*,body {
+* {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", system-ui, Arial, sans-serif;
+  
 }
 
+body {
+  overflow-x: hidden;
+}
 
 
 
@@ -512,12 +516,13 @@ SECTION-TEXT
 .box-clien {
   display: grid;
   justify-content: center;
+  justify-items: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   padding: 20px;
 }
 
-.box-client {
+/* .box-client {
   display: grid;
   align-items: center;
   font-size: 1rem;
@@ -527,6 +532,19 @@ SECTION-TEXT
   max-width: 690px;
   width: 100%;
   height: auto;
+  border-radius: 12px;
+} */
+ 
+
+.box-client {
+  display: grid;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 700;
+  gap: 10px;
+  max-width: 690px;
+  width: 100%;
+  height: 306px;
   border-radius: 12px;
 }
 
@@ -570,6 +588,7 @@ SECTION-TEXT
 */
 #box-klivios {
   display: grid;
+  justify-items: center;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   align-items: center;
@@ -611,7 +630,7 @@ SECTION-TEXT
 }
 
 .klivio-section span {
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   color: #333;
 }
@@ -645,6 +664,7 @@ SECTION-TEXT
   .klivio-section {
     justify-content: center;
     text-align: left;
+    font-size: 1rem;
   }
 }
 
@@ -662,6 +682,7 @@ FORMATION
   background: #44DDA8;
   display: grid;
   align-items: center;
+  justify-items: center;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   padding: 4rem 5%;
@@ -704,7 +725,9 @@ FORMATION
   align-items: center;
   display: flex;
   gap: 1rem;
+  font-size: 1.5rem;
 }
+
 
 @media (max-width: 900px) {
   #formations-box {
@@ -727,18 +750,20 @@ FORMATION
   .formations-box-li {
     justify-content: center;
     text-align: left;
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 500px) {
   .formations-box-li span {
-    font-size: 0.95rem;
+    font-size: 0.90rem;
   }
 }
 
 
 #box-propos {
   display: grid;
+  justify-items: center;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   align-items: center;
@@ -748,6 +773,14 @@ FORMATION
 .box-proposs {
   max-width: 600px;
   padding: 4rem 5%;
+}
+
+.propos-proposs{
+
+}
+
+.propos-titre{
+  display: grid;
 }
 
 .propos-titre {
@@ -794,11 +827,10 @@ FORMATION
   max-width: 100%;
   height: auto;
   object-fit: contain;
+  padding: 1vw;
 }
 
-/*
- RESPONSIVE 
-*/
+
 @media (max-width: 900px) {
   #box-propos {
     grid-template-columns: 1fr;
@@ -821,3 +853,8 @@ FORMATION
   }
 }
 
+
+
+
+
+ 
