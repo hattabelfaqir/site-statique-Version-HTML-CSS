@@ -16,7 +16,7 @@ body {
 .site-header {
   position: relative;
   background: #152237;
-  color: white;
+  color: #FFFFFF;
 }
 
 .header-container {
@@ -39,7 +39,7 @@ body {
 }
 
 .header-nav a {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: 600;
 }
@@ -48,9 +48,14 @@ body {
   display: flex;
   align-items: center;
   background: transparent;
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 0.4rem 0.6rem;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid #FFFFFF
+}
+
+.placeholder::placeholder {
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .search-bar input {
@@ -81,23 +86,25 @@ body {
 }
 
 .headerBtnCon {
-  border-radius: 10px;
-  color: black;
+  border-radius: 6px;
+  color: #152237;
   background: #ffffff;
   padding: 10px 15px;
   cursor: pointer;
   border: none;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .headerBtnIns {
-  border-radius: 10px;
-  color: black;
+  border-radius: 6px;
+  color: #152237;
   background: linear-gradient(to right, #44DD8A, #15D7E2);
   padding: 10px 15px;
   cursor: pointer;
   border: none;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 
@@ -225,8 +232,8 @@ SECTION-TEXT
   padding: 0px 0px 20px;
 }
 
-.section-text button {
-  border-radius: 10px;
+.section-btn button {
+  border-radius: 6px;
   color: black;
   background: #ffffff;
   padding: 10px 20px;
@@ -284,13 +291,12 @@ SECTION-TEXT
   display: flex;
   gap: 10px;
   background: #0F1B33;
-  padding: 7px 14px;
+  padding: 5px 10px;
   border-radius: 20px;
   position: absolute;
   bottom: -15px;
   right: 15px;
   color: white;
-  font-weight: 600;
   align-items: center;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.188);
 }
@@ -310,7 +316,7 @@ SECTION-TEXT
 
 .course-info {
   display: grid;
-  padding: 16px 8px;
+  padding: 16px 0px 0px 8px;
   gap: 5px;
 }
 
@@ -342,7 +348,7 @@ SECTION-TEXT
   color: white;
   border: none;
   border-radius: 10px;
-  font-size: 1.1rem;
+  font-size: 15px;
   font-weight: 500;
   cursor: pointer;
 }
@@ -434,17 +440,17 @@ SECTION-TEXT
 .training-price-tag p {
   text-decoration: line-through;
   opacity: 0.7;
-  font-size: 0.85rem;
+  font-size: 10px;
 }
 
 .training-details {
   display: grid;
-  padding: 16px 8px;
+  padding: 16px 0px 0px 8px;
   gap: 5px;
 }
 
 .training-details h5 {
-  font-size: 1.2rem;
+  font-size: 20px;
   font-weight: 700;
   color: #ffffff;
 }
@@ -471,14 +477,20 @@ SECTION-TEXT
   color: #152237;
   border: none;
   border-radius: 10px;
-  font-size: 1.1rem;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 500;
   cursor: pointer;
 }
 
 @media (max-width: 1100px) {
   .training-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .training-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
   }
 
   .training-heading {
@@ -494,9 +506,6 @@ SECTION-TEXT
 }
 
 @media (max-width: 600px) {
-  .training-heading {
-    font-size: 2rem;
-  }
   .training-grid {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -531,7 +540,7 @@ SECTION-TEXT
   align-items: center;
   font-size: 1rem;
   font-weight: 700;
-  gap: 10px;
+  gap: 5px;
   max-width: 690px;
   width: 100%;
   border-radius: 12px;
@@ -756,7 +765,7 @@ SECTION-TEXT
 }
 
 .propos-titre {
-  font-size: 2.5rem;
+  font-size: 40px;
   color: #152237;
   margin-bottom: 1.5rem;
   padding: 40px 0px 0px 0px;
@@ -797,6 +806,10 @@ SECTION-TEXT
   .box-propos-content {
     padding-left: 0;
   }
+
+  .propos-titre {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -820,7 +833,7 @@ SECTION-TEXT
 .contacter-titre {
   display: grid;
   align-items: center;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 900;
   justify-items: center;
 }
@@ -920,6 +933,10 @@ SECTION-TEXT
   .box-contacter-liner {
     display: none;
   }
+
+  .contacter-titre {
+    font-size: 30px;
+  }
 }
 
 
@@ -974,6 +991,7 @@ SECTION-TEXT
   gap: 10px;
   font-size: 14px;
   line-height: 1.9;
+  align-items: flex-start;
 }
 
 .footer-actions {
