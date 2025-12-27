@@ -1044,11 +1044,15 @@ SECTION-TEXT
 @media (max-width: 1000px) {
   .footer-top {
     flex-direction: column;
+  }
+
+  .footer-title {
     text-align: center;
   }
 
   .footer-list a {
     justify-content: center;
+    text-align: center;
   }
 
   .footer-nav {
