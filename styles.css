@@ -48,9 +48,12 @@ body {
   display: flex;
   align-items: center;
   background: transparent;
+  width: 477px;
+  height: 40px;
   border-radius: 6px;
   padding: 0.4rem 0.6rem;
-  border: 1px solid #FFFFFF
+  border: 1px solid #FFFFFF;
+  justify-content: space-between;
 }
 
 .placeholder::placeholder {

@@ -7,134 +7,137 @@
     <meta name="description" content="Plateforme de formations en ligne — Klivio">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
  
-<header class="site-header">
-    <div class="header-container">
-
-        <div class="header-logo">
-            <img src="./image/logo.png" alt="Klivio" width="84" height="31">
-        </div>
-
-        <button class="burger" aria-label="Menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      
-        <div class="mobile-menu">
-          <button class="headerBtnCon">Connexion</button>
-          <button class="headerBtnIns">Inscription</button>
-        </div>
-
-        <nav class="header-nav" aria-label="Navigation principale">
-            <ul>
-                <li>Les formations</li>
-            </ul>
-        </nav>
-
-        <form class="search-bar" role="search">
-          <input type="search" placeholder="Rechercher" aria-label="Rechercher une formation" class="placeholder">
-            <button type="submit" class="search-btn">
-                <img src="./image/lopeIcon.svg" alt="Klivio">
-            </button>
-        </form>
-
-        <div class="header-actions">
-            <button class="headerBtnCon" type="submit">Connexion</button>
-            <button class="headerBtnIns" type="submit">Inscription</button>
-        </div>
-
-    </div>
-</header>
-
-
-<section id="courses-section">
-  <div class="section-box">
-    <div class="section-img">
-      <div class="section-text">
-        <h1>Klivio, l’allié de votre progression</h1>
-        <p>Les meilleures formations en développement personnel</p>
-        <div class="section-btn">
-            <button type="button">En savoir plus</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="popular-courses"> 
-    <h2 class="section-title">Les formations populaires</h2>
-    <div class="courses-grid">
-      <div class="course-card">
-        <div class="course-img">
-          <img src="./image/img-course.png" alt="Course image" class="w-full block">
-          <div class="course-price">
-            <h4>15,99 €</h4>
-            <p>60 €</p>
+  <header class="site-header">
+      <div class="header-container">
+  
+          <div class="header-logo">
+              <img src="./image/logo.png" alt="Klivio" width="84" height="31">
           </div>
-        </div>
-        <div class="course-info">
-          <h5>Parler en public</h5>
-          <p class="description">Sonia Lefèvre | Coach prise de parole</p>
-          <div class="stars">⭐⭐⭐⭐⭐</div>
-          <p class="description">Gagnez en aisance et captez votre auditoire</p>
-        </div>
-      </div>
-      <div class="course-card">
-        <div class="course-img">
-          <img src="./image/img-course.png" alt="Course image">
-          <div class="course-price">
-            <h4>15,99 €</h4>
-            <p>60 €</p>
+  
+          <nav class="header-nav" aria-label="Navigation principale">
+              <ul>
+                  <li>Les formations</li>
+              </ul>
+          </nav>
+  
+          <form class="search-bar" role="search">
+            <input type="search" placeholder="Rechercher" aria-label="Rechercher une formation" class="placeholder">
+              <button type="submit" class="search-btn">
+                  <img src="./image/lopeIcon.svg" alt="Klivio">
+              </button>
+          </form>
+  
+          <div class="header-actions">
+              <button class="headerBtnCon" type="submit">Connexion</button>
+              <button class="headerBtnIns" type="submit">Inscription</button>
           </div>
-        </div>
-        <div class="course-info">
-          <h5>Gérer le stress</h5>
-          <p class="description">Lucie Garnier | Formatrice</p>
-          <div class="stars">⭐⭐⭐⭐<span class="opa">⭐</span></div>
-          <p class="description">Apprenez à rester serein face aux défis</p>
-        </div>
-      </div>
-      <div class="course-card">
-        <div class="course-img">
-          <img src="./image/img-course.png" alt="Course image">
-          <div class="course-price">
-            <h4>15,99 €</h4>
-            <p>60 €</p>
+  
+          <!-- MENU MOBILE -->
+  
+          <button class="burger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        
+          <div class="mobile-menu">
+            <button class="headerBtnCon">Connexion</button>
+            <button class="headerBtnIns">Inscription</button>
           </div>
-        </div>
-        <div class="course-info">
-          <h5>Travailler en équipe</h5>
-          <p class="description">David Moreau | Expert</p>
-          <div class="stars">⭐⭐⭐⭐⭐</div>
-          <p class="description">Collaborez efficacement, même à distance</p>
-        </div>
+  
       </div>
-      <div class="course-card">
-        <div class="course-img">
-          <img src="./image/img-course.png" alt="Course image">
-          <div class="course-price">
-            <h4>15,99 €</h4>
-            <p>60 €</p>
+  </header>
+  
+  
+  <section id="courses-section">
+    <div class="section-box">
+      <div class="section-img">
+        <div class="section-text">
+          <h1>Klivio, l’allié de votre progression</h1>
+          <p>Les meilleures formations en développement personnel</p>
+          <div class="section-btn">
+              <button type="button">En savoir plus</button>
           </div>
-        </div>
-        <div class="course-info">
-          <h5>Gérer son temps</h5>
-          <p class="description">Claire Dumas | Coach organisation</p>
-          <div class="stars">⭐⭐⭐⭐<span class="opa">⭐</span></div>
-          <p class="description">Optimisez vos journées et gagnez en efficacité</p>
         </div>
       </div>
     </div>
-    <button id="more-courses-btn">Voir plus de formations</button>
-  </div>
-</section>
-
-
-
-<main>
+  
+    <!-- Les formations populaires -->
+  
+    <div id="popular-courses"> 
+      <h2 class="section-title">Les formations populaires</h2>
+      <div class="courses-grid">
+        <div class="course-card">
+          <div class="course-img">
+            <img src="./image/img-course.png" alt="Course image" class="w-full block">
+            <div class="course-price">
+              <h4>15,99 €</h4>
+              <p>60 €</p>
+            </div>
+          </div>
+          <div class="course-info">
+            <h5>Parler en public</h5>
+            <p class="description">Sonia Lefèvre | Coach prise de parole</p>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="description">Gagnez en aisance et captez votre auditoire</p>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-img">
+            <img src="./image/img-course.png" alt="Course image">
+            <div class="course-price">
+              <h4>15,99 €</h4>
+              <p>60 €</p>
+            </div>
+          </div>
+          <div class="course-info">
+            <h5>Gérer le stress</h5>
+            <p class="description">Lucie Garnier | Formatrice</p>
+            <div class="stars">⭐⭐⭐⭐<span class="opa">⭐</span></div>
+            <p class="description">Apprenez à rester serein face aux défis</p>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-img">
+            <img src="./image/img-course.png" alt="Course image">
+            <div class="course-price">
+              <h4>15,99 €</h4>
+              <p>60 €</p>
+            </div>
+          </div>
+          <div class="course-info">
+            <h5>Travailler en équipe</h5>
+            <p class="description">David Moreau | Expert</p>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="description">Collaborez efficacement, même à distance</p>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-img">
+            <img src="./image/img-course.png" alt="Course image">
+            <div class="course-price">
+              <h4>15,99 €</h4>
+              <p>60 €</p>
+            </div>
+          </div>
+          <div class="course-info">
+            <h5>Gérer son temps</h5>
+            <p class="description">Claire Dumas | Coach organisation</p>
+            <div class="stars">⭐⭐⭐⭐<span class="opa">⭐</span></div>
+            <p class="description">Optimisez vos journées et gagnez en efficacité</p>
+          </div>
+        </div>
+      </div>
+      <button id="more-courses-btn">Voir plus de formations</button>
+    </div>
+  </section>
+  
+  <!-- Les formations récentes -->
+  
   <div class="training-wrapper">
     <h2 class="training-heading">Les formations récentes</h2>
     <div class="training-grid">
@@ -202,10 +205,12 @@
     <button class="training-button">Voir plus de formations</button>
   </div>
 
+  <!-- AVIS CLIENTS -->
+
   <div id="box-clients">
 
     <div class="cliens-text">
-        <h2>Avis clients</h2>
+        <h2>AVIS CLIENTS</h2>
     </div>
 
     <div class="box-clien">
@@ -228,9 +233,11 @@
 
   </div>
 
+  <!-- LES AVANTAGES KLIVIO -->
+
   <section id="box-klivios">
     <div class="box-klivio">
-      <h2 class="klivio-titre">Les avantages Klivio</h2>
+      <h2 class="klivio-titre">LES AVANTAGES KLIVIO</h2>
   
       <ul class="klivio-boxs">
         <li class="klivio-section">
@@ -270,9 +277,11 @@
     </div>
   </section>
 
+  <!-- CRÉEZ VOS FORMATIONS -->
+
   <section id="formations-box">
 
-    <h2 class="formations-titres">Créez vos formations</h2>
+    <h2 class="formations-titres">CRÉEZ VOS FORMATIONS</h2>
 
     <div class="formations-image">
       <img src="./image/become-author.png" alt="img/png">
@@ -280,7 +289,7 @@
 
     <ul class="formations-box-ul">
       <div class="formations-titre">
-        <h2>Créez vos formations avec Klivio</h2>
+        <h2>CRÉEZ VOS FORMATIONS AVEC KLIVIO</h2>
       </div>
       <li class="formations-box-li">
         <img src="./image/monercon.svg" alt="img/svg">
@@ -309,127 +318,130 @@
     </ul>
 
   </section>
-
-<section id="box-propos">
-  <div class="box-propos-content">
-    <h2 class="propos-titre">À propos de Klivio</h2>
-
-    <p class="propos-texte">
-      Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre
-      approche éducative. Nous nous engageons à assurer une rémunération équitable
-      pour les créateurs de contenu, reconnaissant la qualité de leur travail.
-      <br><br>
-      Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité
-      nécessaire pour explorer divers sujets. La transparence est au cœur de notre
-      démarche, garantissant une clarté totale sur les formations proposées.
-      Ensemble, ces valeurs forment le socle d’une éducation enrichissante et
-      équitable, guidant notre mission d’offrir des opportunités d’apprentissage
-      de qualité.
-    </p>
-  </div>
-
-  <div class="propos-image">
-    <img src="./image/logo.png" alt="Logo Klivio">
-  </div>
-</section>
-
-
-<section id="box-contacter">
-
-  <div class="boxs-contacter">
-
-    <h1 class="contacter-titre">
-      Nous contacter
-    </h1>
-
-    <div class="box-contacter-liner">
-      <div class="contacter-liner"></div>
-    </div>
-
-  </div>
-
-  <div class="box-information">
-    <form class="box-informations">
-      <input type="text" placeholder="Nom" class="box-informations-input">
-      <input type="email" placeholder="Email" class="box-informations-input">
-    </form>
-  </div>
-
   
-  <div class="box-information-message">
-    <div class="box-message">
-      <textarea placeholder="Votre message" class="box-message-placeholder"></textarea>
+  <!-- À PROPOS DE KLIVIO -->
+  
+  <section id="box-propos">
+    <div class="box-propos-content">
+      <h2 class="propos-titre">À PROPOS DE KLIVIO</h2>
+  
+      <p class="propos-texte">
+        Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre
+        approche éducative. Nous nous engageons à assurer une rémunération équitable
+        pour les créateurs de contenu, reconnaissant la qualité de leur travail.
+        <br><br>
+        Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité
+        nécessaire pour explorer divers sujets. La transparence est au cœur de notre
+        démarche, garantissant une clarté totale sur les formations proposées.
+        Ensemble, ces valeurs forment le socle d’une éducation enrichissante et
+        équitable, guidant notre mission d’offrir des opportunités d’apprentissage
+        de qualité.
+      </p>
     </div>
-  </div>
-
-  <div class="box-information-submit">
-    <button class="box-btn" type="submit">Envoyer</button>
-  </div>
-
-</section>
-</main>
-
-
-<footer id="footer">
-  <div class="footer-bar"></div>
-
-  <div class="footer-container">
-    <div class="footer-top">
-
-      <div class="footer-logo">
-        <img src="./image/logo.png" alt="Logo Klivio" width="235">
-      </div>
-
-      <nav class="footer-nav">
-        <ul class="footer-list">
-          <li class="footer-title">Mentions légales</li>
-          <li><a href="#">CGU</a></li>
-          <li><a href="#">CGV</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-
-        <ul class="footer-list">
-          <li class="footer-title">Coordonnées</li>
-          <p class="footer-lists">
-            <img src="./image/gpsIcon.svg" alt="Klivio">
-              1 place République,<br>75003 Paris
-          </p>
-          <p class="footer-lists">
-            <img src="./image/telIcon.svg" alt="Klivio">
-             01.02.03.04.05
-          </p>
-          <p class="footer-lists">
-            <img src="./image/smsIcon.svg" alt="Klivio">
-             contact@klivio.fr
-          </p>
-        </ul>
-      </nav>
-
-      <div class="footer-actions">
-        <button class="btn btn-light">Connexion</button>
-        <button class="btn btn-gradient">Inscription</button>
-      </div>
-
+  
+    <div class="propos-image">
+      <img src="./image/logo.png" alt="Logo Klivio">
     </div>
-
-    <div class="footer-divider"></div>
-
-    <div class="footer-bottom">
-      <span>© Klivio - 2025</span>
-
-      <div class="footer-social">
-        <span>Suivez-nous</span>
-        <div class="social-icons">
-          <img src="./image/f.svg" alt="Facebook">
-          <img src="./image/X.svg" alt="X">
-          <img src="./image/INSTAGRAME.svg" alt="Instagram">
-          <img src="./image/LINKB.svg" alt="LinkedIn">
+  </section>
+  
+  <!-- NOUS CONTACTER -->
+  
+  <section id="box-contacter">
+  
+    <div class="boxs-contacter">
+  
+      <h1 class="contacter-titre">
+        NOUS CONTACTER
+      </h1>
+  
+      <div class="box-contacter-liner">
+        <div class="contacter-liner"></div>
+      </div>
+  
+    </div>
+  
+    <div class="box-information">
+      <form class="box-informations">
+        <input type="text" placeholder="Nom" class="box-informations-input">
+        <input type="email" placeholder="Email" class="box-informations-input">
+      </form>
+    </div>
+  
+    
+    <div class="box-information-message">
+      <div class="box-message">
+        <textarea placeholder="Votre message" class="box-message-placeholder"></textarea>
+      </div>
+    </div>
+  
+    <div class="box-information-submit">
+      <button class="box-btn" type="submit">Envoyer</button>
+    </div>
+  
+  </section>
+  
+  <!-- FOOTER -->
+  
+  <footer id="footer">
+    <div class="footer-bar"></div>
+  
+    <div class="footer-container">
+      <div class="footer-top">
+  
+        <div class="footer-logo">
+          <img src="./image/logo.png" alt="Logo Klivio" width="235">
+        </div>
+  
+        <nav class="footer-nav">
+          <ul class="footer-list">
+            <li class="footer-title">Mentions légales</li>
+            <li><a href="#">CGU</a></li>
+            <li><a href="#">CGV</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+  
+          <ul class="footer-list">
+            <li class="footer-title">Coordonnées</li>
+            <p class="footer-lists">
+              <img src="./image/gpsIcon.svg" alt="Klivio">
+                1 place République,<br>75003 Paris
+            </p>
+            <p class="footer-lists">
+              <img src="./image/telIcon.svg" alt="Klivio">
+               01.02.03.04.05
+            </p>
+            <p class="footer-lists">
+              <img src="./image/smsIcon.svg" alt="Klivio">
+               contact@klivio.fr
+            </p>
+          </ul>
+        </nav>
+  
+        <div class="footer-actions">
+          <button class="btn btn-light">Connexion</button>
+          <button class="btn btn-gradient">Inscription</button>
+        </div>
+  
+      </div>
+  
+      <div class="footer-divider"></div>
+  
+      <div class="footer-bottom">
+        <span>© Klivio - 2025</span>
+  
+        <div class="footer-social">
+          <span>Suivez-nous</span>
+          <div class="social-icons">
+            <img src="./image/f.svg" alt="Facebook">
+            <img src="./image/X.svg" alt="X">
+            <img src="./image/INSTAGRAME.svg" alt="Instagram">
+            <img src="./image/LINKB.svg" alt="LinkedIn">
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 <script src="./js.js"></script>
 </body>
 </html>
